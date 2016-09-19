@@ -1,0 +1,244 @@
+@media /*(min-width: 651px) and*/ (max-width: 1024px) {
+    /*html, body { font-size: 14px; }*/
+    .main {
+        /*max-width: 60rem;*/
+        width: 96vw;
+    }
+    .main .head .centerMainBlock .title {
+        font-size: 5.5vw;
+    }
+    .main .head .centerMainBlock .desc {
+        width: 100%;
+    }
+    .slidersBlock .slider {
+        height: 70vw;
+    }
+    .slidersBlock .slider .inSlide .title {
+        margin-top: 18.6vw;
+    }
+    .slidersBlock .slider .inSlide .title .big {
+        font-size: 9vw;
+    }
+    .slidersBlock .slider .inSlide .title .small {
+        font-size: 6vw;
+    }
+    .slidersBlock .slider .inSlide .phones {
+        font-size: 4vw;
+        margin-top: 2.7vw;
+    }
+    .slidersBlock .slick-list {
+        margin: 0 11vw;
+    }
+    .slidersBlock .slick-prev {
+        left: 1vw;
+    }
+    .slidersBlock .slick-next {
+        right: 1vw;
+    }
+    .slidersBlock .slider .inSlide .menu ul li.ico {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .slidersBlock .slider .inSlide .menu ul li a {
+        font-size: 1.9vw;
+    }
+    .slidersBlock .slider .inSlide .backcall {
+        margin-top: 4.5vw;
+    }
+    .slidersBlock .slider .inSlide .backcall a {
+        border: 0.4vw solid #fff;
+        font-size: 2.6vw;
+        padding: 0.9vw 4.1vw;
+    }
+    .slidersBlock .slider .inSlide .line {
+        margin-top: 2.2vw;
+    }
+    .slidersBlock .slider .inSlide .menu {
+        margin-top: 7.2vw;
+    }
+
+    .main .news {
+        padding-top: 4.6rem;
+    }
+    .main .news .title {
+        font-size: 2.4rem;
+    }
+    .main .news .inner {
+        margin-top: 2.1rem;
+    }
+    .main .news .inner .item:nth-child(2n+5) {
+        display: none;
+    }
+    .main .news .inner .item {
+        margin-right: 1.1%;
+        width: 23.4%;
+    }
+    .main .news .inner .item:nth-child(2n+4) {
+        margin-right: 0;
+    }
+
+    .main .news .all {
+        margin-top: 1.25rem;
+    }
+    .main .news .all a {
+        font-size: 1.375rem;
+    }
+    .main .service {
+        margin-top: 3.3rem;
+    }
+    .main .service .title {
+        font-size: 2.3rem;
+    }
+    .main .service .inner {
+        margin-top: 2.125rem;
+    }
+    .main .service .slick-list {
+        display: block;
+        margin: 0 5rem;
+        overflow: hidden;
+        padding: 0 0 20px;
+        position: relative;
+
+    }
+    .main .service .slick-prev {
+        left: -0.5rem;
+    }
+    .main .service .slick-next {
+        right: -0.5rem;
+    }
+    .main .service .inner .item .left {
+        width: 38%;
+    }
+    .main .service .inner .item .right {
+        margin-left: 1.1%;
+        width: 59%;
+    }
+    .main .service .inner .item .right .name {
+        font-size: 2rem;
+    }
+    .main .service .inner .item .right .desc {
+        line-height: 1.125rem;
+        margin-top: 0;
+    }
+    .main .service .inner .item .right .more {
+        font-size: 0.875rem;
+    }
+    .main .service .inner .item .right .link a {
+        border-width: 0.4vw;
+        font-size: 2.6vw;
+    }
+    .main .partners {
+        margin-top: 3.85rem;
+    }
+    .main .partners .title {
+        font-size: 2.3rem;
+    }
+    .main .partners .titleLine {
+        margin: 1.025rem auto 0;
+    }
+    .main .partners .inner {
+        margin-top: 2.763rem;
+    }
+    .main .partners .inner .item {
+        height: 11.825rem;
+        margin-right: 1.66%;
+        width: 23.7%;
+    }
+    .main .partners .inner .item:nth-child(2n+4) {
+        margin-right: 0;
+    }
+    .main .partners .inner .item:nth-child(2n+5) {
+        display: none;
+    }
+    .main .information {
+        margin-bottom: 3.5rem;
+        margin-top: 6.45rem;
+    }
+    .main .information .title {
+        font-size: 2.3rem;
+    }
+    .main .information .titleLine {
+        margin: 1.025rem auto 0;
+    }
+    .main .information .inner .item .name {
+        font-size: 1.7rem;
+    }
+    .main .information .inner .item .line {
+        margin-bottom: 1rem;
+        margin-top: 0.7rem;
+        width: 33%;
+    }
+    .main .information .all {
+        font-size: 1.388rem;
+        margin-top: 1.975rem;
+    }
+    footer .logoBlock {
+        /*top: 2.788rem;*/
+    }
+    footer .menu {
+        margin-left: 1.8vw;
+    }
+    footer .menu ul {
+        margin-right: 7vw;
+    }
+    footer .phonesBlock{
+        margin-left: 9.4vw;
+    }
+    footer .phones {
+        /*font-size: 3.1vw;*/
+        /*left: 39.5vw;*/
+        /*top: 4.05rem;*/
+    }
+    footer .email {
+        /*font-size: 3.1vw;*/
+        /*left: 55.5vw;*/
+        /*top: 5.325rem;*/
+    }
+    footer .send {
+        /*left: 39.7vw;*/
+        /*top: 10.8rem;*/
+    }
+    footer .copyrights {
+        margin-left: 8.2vw;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
