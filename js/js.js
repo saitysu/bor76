@@ -1,16 +1,51 @@
 jQuery(document).ready(function () {
 
-    var sliderOnMain = $('.slidersBlock .slider');
+    var sliderOnMain =    $('.slidersBlock .slider:nth-child(2n+1)');
+    var sliderOnMainRev = $('.slidersBlock .slider:nth-child(2n)');
+
+    var arTitle =
+        [
+            "Главная",
+            "Расположение",
+            "Инфраструктура",
+            "Документация",
+            "Генплан",
+            "Фотогалерея"
+        ];
+
+    var arTitleInverse =
+        [
+            "Фотогалерея",
+            "Генплан",
+            "Документация",
+            "Инфраструктура",
+            "Расположение",
+            "Главная"
+        ];
 
     sliderOnMain.slick({
         arrows:true
         ,dots:true
+        ,customPaging: function(slider, i) {
+            return '<span class="dot">' + arTitle[i] + '</span><span class="ico"></span>';
+        }
         ,draggable:true
         ,infinite:false
-        , respondTo: 'window'
-        , adaptiveHeight:true
+        ,respondTo: 'window'
+        ,adaptiveHeight:true
+    });
 
-
+    sliderOnMainRev.slick({
+        arrows:true
+        ,dots:true
+        ,customPaging: function(slider, i) {
+            return '<span class="dot">' + arTitleInverse[i] + '</span><span class="ico"></span>';
+        }
+        ,draggable:true
+        ,infinite:false
+        ,currentSlide: '5'
+        ,respondTo: 'window'
+        ,adaptiveHeight:true
     });
 
     var sliderService = $('.service .inner');
@@ -20,10 +55,8 @@ jQuery(document).ready(function () {
         ,dots:false
         ,draggable:true
         ,infinite:false
-        , respondTo: 'window'
-        , adaptiveHeight:true
-
-
+        ,respondTo: 'window'
+        ,adaptiveHeight:true
     });
 
     // $(".main .head .menu").pin();

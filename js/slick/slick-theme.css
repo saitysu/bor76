@@ -144,16 +144,31 @@
 }
 .slick-dots li
 {
-    position: relative;
-
+    color: #fff;
+    cursor: pointer;
     display: inline-block;
-
-    width: 20px;
+    font-family: "rain_tungstenmedium",sans-serif;
+    font-size: 1.125rem;
     height: 20px;
     margin: 0 5px;
     padding: 0;
+    position: relative;
+    width: auto;
+    text-transform: uppercase;
+}
 
-    cursor: pointer;
+.slick-dots li .ico{
+    background: transparent url("../../img/sprite.png") no-repeat scroll 0 -233px;
+    display: inline-block;
+    height: 6px;
+    margin-left: 0.75rem;
+    margin-right: 0;
+    position: relative;
+    top: -0.1875rem;
+    width: 10px;
+}
+.slick-dots li:last-child .ico{
+    display: none;
 }
 .slick-dots li button
 {
@@ -210,6 +225,15 @@
     opacity: .75;
     color: black;
 }
+.slick-dots li.slick-active
+{
+    color: #f2dc9a;
+}
+.slick-dots li:hover
+{
+    color: #f2dc9a;
+}
+
 .slick-prev.slick-disabled,
 .slick-next.slick-disabled {
     display: none;
