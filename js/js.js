@@ -43,7 +43,7 @@ jQuery(document).ready(function () {
         }
         ,draggable:true
         ,infinite:false
-        ,currentSlide: '5'
+        ,initialSlide:'5'
         ,respondTo: 'window'
         ,adaptiveHeight:true
     });
@@ -107,6 +107,15 @@ jQuery(document).ready(function () {
                 .end().filter("[href='#"+id+"']").parent().addClass("active");
         }
     });
+
+
+    setTimeout(function() {
+
+      //  $("#vsRasp .whiteFone").append('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=AgTAIZzORXuq6g4zMNJTwikNqmSguaU7&amp;width=1075&amp;height=634&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>')
+
+    }, 2000);
+
+
 
 
 

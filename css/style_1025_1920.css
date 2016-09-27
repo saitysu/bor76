@@ -248,10 +248,23 @@ input, textarea {
 
 }
 .slidersBlock .slider .inSlide{
-    position: relative;
+    display: table-cell;
+    float: none;
     font-family: "rain_tungstenmedium",sans-serif;
+    height: 900px;
+    padding-bottom: 20px;
     padding-left: 2px;
+    position: relative;
+    vertical-align: middle;
 }
+.slidersBlock .slider .inSlide .whiteFone{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 25px;
+    height: 692px;
+    margin-left: 0.8rem;
+    margin-right: 0.6rem;
+}
+
 .slidersBlock .slider .inSlide .title{
     color: #fff;
     font-size: 7.03rem;
@@ -683,6 +696,107 @@ footer .copyrights{
     margin-left: 5.2rem;
     margin-top: 1.6rem;
 }
+
+.infra{
+    color: #000;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding-top: 60px;
+}
+.infra h2{
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.infra h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.infra p{
+    margin-bottom: 10px;
+}
+.infra > table{
+    width: 100%;
+}
+.infra > table td{
+    vertical-align: top;
+    width: 33%;
+}
+.infra .itemDocumentation .img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+}
+.infra .itemDocumentation .link{
+    display: inline-block;
+    vertical-align: middle;
+    width: 84%;
+}
+
+.inSlide .plan{
+    width: 100%;
+    height: 100%;
+}
+.inSlide .plan .innerPlan{
+    margin: 0 auto;
+    width: 920px;
+    position: relative;
+}
+.inSlide .plan .innerPlan .house{
+    border: 1px solid red;
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 23px;
+}
+.inSlide .plan .innerPlan .house01{
+    left: 266px;
+    top: 44px;
+}
+.inSlide .plan .innerPlan .house02{
+    left: 305px;
+    top: 44px;
+}
+.inSlide .plan .innerPlan .house03{
+    left: 338px;
+    top: 44px;
+    width: 29px;
+}
+.inSlide .plan .innerPlan .house04{
+    left: 376px;
+    top: 44px;
+    width: 30px;
+}
+.inSlide .plan .innerPlan .house05{
+    height: 38px;
+    left: 414px;
+    top: 44px;
+    width: 30px;
+
+}
+.inSlide .plan .innerPlan .house06{
+    height: 39px;
+    left: 453px;
+    top: 44px;
+    width: 30px;
+}
+.inSlide .plan .innerPlan .house07{ }
+.inSlide .plan .innerPlan .house08{ }
+.inSlide .plan .innerPlan .house09{ }
+.inSlide .plan .innerPlan .house10{ }
+.inSlide .plan .innerPlan .house11{ }
+.inSlide .plan .innerPlan .house12{ }
+.inSlide .plan .innerPlan .house13{ }
+.inSlide .plan .innerPlan .house14{ }
+
+
+
+
 
 
 
