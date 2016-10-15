@@ -201,6 +201,959 @@
     footer .copyrights {
         margin-left: 8.2vw;
     }
+    .slidersBlock .slider .inSlide{
+        height: 700px;
+    }
+    .slidersBlock .slider .inSlide .whiteFone {
+        height: 500px;
+    }
+    .slidersBlock .size1600{
+        display: none;
+    }
+    .slidersBlock .size1024{
+        display: block;
+    }
+    .size1024 .mobileSl{
+        background: #fff none repeat scroll 0 0;
+        border-radius: 12px;
+        display: none;
+        padding: 10px;
+        height: 400px;
+        overflow: auto;
+    }
+    .size1024 .mobileSl .map_block{
+        display: none;
+        left: 0;
+        position: absolute;
+        top: 0vw;
+        width: 100%;
+        z-index: 1;
+    }
+    .size1024 .mobileSl .map_block .img_plan{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .size1024 .mobileSl .map_block .img_plan img{
+        width: 100%;
+    }
+    .size1024 .mobileSl .map_block .innerPlan{
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house {
+        height: 2.4vw;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 1.8vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house .saled {
+       display: none;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house .sale {
+        color: #fff;
+        display: inline-block;
+        font-size: 1.1vw;
+        height: 100%;
+        vertical-align: middle;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house .bron {
+        display: none;
+     }
+    .size1024 .mobileSl .map_block .innerPlan .house .baloon {
+        background: transparent url("../img/balloon.png") no-repeat scroll 0 0 / cover ;
+        display: none;
+        font-size: 0.6vw;
+        height: 3.5vw;
+        left: 1vw;
+        padding-left: 1.1vw;
+        padding-top: 0.7vw;
+        position: absolute;
+        text-align: center;
+        top: -1.8vw;
+        width: 4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house .baloon .titleBaloon{
+
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house .baloon .status{
+
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house .baloon .price{
+
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house .baloon .price span{
+
+    }
+
+
+    .size1024 .mobileSl .map_block .innerPlan .innerPlanShift{
+        height: 11px;
+        margin: 0 auto;
+        position: relative;
+        width: 50vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house001 {
+        left: 12.8vw;
+        top:2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house002 {
+        left: 15vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house003 {
+        left: 17.4vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house004 {
+        left: 19.792vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house005 {
+        left: 22.2vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house006 {
+        left: 24.7vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house007 {
+        left: 27.1vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house008 {
+        left: 31vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house009 {
+        left: 33.4vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house010 {
+        left: 35.7vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house011 {
+        left: 38.1vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house012 {
+        left: 40.5vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house013 {
+        left: 42.8vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan  .house014 {
+        left: 45.1vw;
+        top: 2.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house015 {
+        left: 45vw;
+        top: 6.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house016 {
+        left: 42.6vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house017 {
+        left: 40.2vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house018 {
+        left: 37.8vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house019 {
+        left: 35.4vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house020 {
+        left: 33vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house021 {
+        left: 30.6vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house022 {
+        left: 26.8vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house023 {
+        left: 24.4vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house024 {
+        left: 22vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house025 {
+        left: 19.6vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house026 {
+        left: 17.2vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house027 {
+        left: 14.8vw;
+        top: 6.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house028 {
+        left: 12.4vw;
+        top: 6.4vw;
+    }
+
+
+    .size1024 .mobileSl .map_block .innerPlan .house029 {
+        left: 12vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house030 {
+        left: 14.4vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house031 {
+        left: 16.8vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house032 {
+        left: 19.2vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house033 {
+        left: 21.6vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house034 {
+        left: 24vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house035 {
+        left: 26.4vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house036 {
+        left: 30.6vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house037 {
+        left: 33vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house038 {
+        left: 35.4vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house039 {
+        left: 37.8vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house040 {
+        left: 40.2vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house041 {
+        left: 42.6vw;
+        top: 10.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house042 {
+        left: 45vw;
+        top: 10.2vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house043 {
+        /*left: 782px;*/
+        left: 44.9vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house044 {
+        left: 42.5vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house045 {
+        left: 40.1vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house046 {
+        left: 37.7vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house047 {
+        left: 35.3vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house048 {
+        left: 32.9vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house049 {
+        left: 30.5vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house050 {
+        left: 26.4vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house051 {
+        left: 24vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house052 {
+        left: 21.6vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house053 {
+        left: 19.2vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house054 {
+        left: 16.8vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house055 {
+        left: 14.4vw;
+        top: 15vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house056 {
+        left: 12vw;
+        top: 15vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house057 {
+        left: 11.2vw;
+        top: 18.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house058 {
+        left: 13.7vw;
+        top: 18.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house059 {
+        left: 16.2vw;
+        top: 18.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house060 {
+        left: 18.7vw;
+        top: 18.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house061 {
+        left: 21.2vw;
+        top: 18.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house062 {
+        left: 23.7vw;
+        top: 18.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house063 {
+        left: 26.2vw;
+        top: 18.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house064 {
+        left: 30.1vw;
+        top: 18.6vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house065 {
+        left: 32.6vw;
+        top: 18.6vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house066 {
+        left: 35.1vw;
+        top: 18.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house067 {
+        left: 37.6vw;
+        top: 18.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house068 {
+        left: 40.1vw;
+        top: 18.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house069 {
+        left: 42.6vw;
+        top: 18.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house070 {
+        left: 45.1vw;
+        top: 18.6vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house071 {
+        left: 44.8vw;
+        top: 23.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house072 {
+        left: 42.3vw;
+        top: 23.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house073 {
+        left: 39.8vw;
+        top: 23.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house074 {
+        left: 37.3vw;
+        top: 23.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house075 {
+        left: 34.8vw;
+        top: 23.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house076 {
+        left: 32.3vw;
+        top: 23.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house077 {
+        left: 29.8vw;
+        top: 23.2vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house078 {
+        left: 26.1vw;
+        top: 22.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house079 {
+        left: 23.6vw;
+        top: 22.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house080 {
+        left: 21.1vw;
+        top: 22.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house081 {
+        left: 18.6vw;
+        top: 22.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house082 {
+        left: 16.1vw;
+        top: 22.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house083 {
+        left: 13.6vw;
+        top: 22.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house084 {
+        left: 11.1vw;
+        top: 22.4vw;
+    }
+
+
+    .size1024 .mobileSl .map_block .innerPlan .house085 {
+        left: 10.5vw;
+        top: 25.5vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house086 {
+        left: 13vw;
+        top: 25.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house087 {
+        left: 15.5vw;
+        top: 25.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house088 {
+        left: 18vw;
+        top: 25.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house089 {
+        left: 20.5vw;
+        top: 25.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house090 {
+        left: 23vw;
+        top: 25.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house091 {
+        left: 25.5vw;
+        top: 25.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house092 {
+        left: 29.5vw;
+        top: 26.7vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house093 {
+        left: 32vw;
+        top: 26.7vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house094 {
+        left: 34.5vw;
+        top: 26.7vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house095 {
+        left: 37vw;
+        top: 26.7vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house096 {
+        left: 39.5vw;
+        top: 26.7vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house097 {
+        left: 42vw;
+        top: 26.7vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house098 {
+        left: 44.5vw;
+        top: 26.7vw;
+    }
+
+
+    .size1024 .mobileSl .map_block .innerPlan .house099 {
+        left: 45vw;
+        top: 31.4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house100 {
+        left: 42.5vw;
+        top: 31.4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house101 {
+        left: 40vw;
+        top: 31.4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house102 {
+        left: 37.5vw;
+        top: 31.4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house103 {
+        left: 35vw;
+        top: 31.4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house104 {
+        left: 32.5vw;
+        top: 31.4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house105 {
+        left: 29.5vw;
+        top: 31.1vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house106 {
+        left: 25.4vw;
+        top: 30.3vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house107 {
+        left: 22.8vw;
+        top: 30.3vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house108 {
+        left: 20.2vw;
+        top: 30.3vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house109 {
+        left: 17.6vw;
+        top: 30.3vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house110 {
+        left: 15vw;
+        top: 30.3vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house111 {
+        left: 12.4vw;
+        top: 30.3vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house112 {
+        left: 9.8vw;
+        top: 30.3vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house113 {
+        left: 9.6vw;
+        top: 33.3vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house114 {
+        left: 12.2vw;
+        top: 33.4vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house115 {
+        left: 14.9vw;
+        top: 33.5vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house116 {
+        left: 17.5vw;
+        top: 33.6vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house117 {
+        left: 20.2vw;
+        top: 33.7vw;
+    }
+
+    .size1024 .mobileSl .map_block .innerPlan .house118 {
+        left: 22.8vw;
+        top: 33.8vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house119 {
+        left: 25.4vw;
+        top: 33.9vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house120 {
+        left: 29vw;
+        top: 34vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house121 {
+        left: 31.6vw;
+        top: 34.1vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house122 {
+        left: 34.2vw;
+        top: 34.2vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house123 {
+        left: 36.8vw;
+        top: 34.2vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house124 {
+        left: 39.4vw;
+        top: 34.3vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house125 {
+        left: 42vw;
+        top: 34.4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house126 {
+        left: 44.6vw;
+        top: 34.5vw;
+    }
+
+
+    .size1024 .mobileSl .map_block .innerPlan .house127 {
+        left: 44.6vw;
+        top: 39.5vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house128 {
+        left: 41.9vw;
+        top: 39.4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house129 {
+        left: 39.3vw;
+        top: 39.3vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house130 {
+        left: 36.7vw;
+        top: 39.2vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house131 {
+        left: 34.1vw;
+        top: 39.1vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house132 {
+        left: 31.7vw;
+        top: 38.5vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house133 {
+        left: 29.3vw;
+        top: 38.4vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house134 {
+        left: 26.9vw;
+        top: 38.2vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house135 {
+        left: 24.5vw;
+        top: 38.1vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house136 {
+        left: 22.1vw;
+        top: 37.8vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house137 {
+        left: 19.7vw;
+        top: 37.6vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house138 {
+        left: 17.1vw;
+        top: 37.3vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house139 {
+        left: 14.6vw;
+        top: 37.1vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house140 {
+        left: 12vw;
+        top: 37vw;
+    }
+    .size1024 .mobileSl .map_block .innerPlan .house141 {
+        left: 9.2vw;
+        top: 36.7vw;
+    }
+
+
+
+
+
+
+    .size1024 .mobileSl.genSl{
+        background: #5b8843;
+        position: relative;
+    }
+    .size1024 .mobileSl h2{
+        color: #111;
+        font-family: "rain_tungstenmedium",sans-serif;
+        font-size: 40px;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+    .size1024 .mobileSl h3{
+        color: #000;
+        font-family: "rain_tungstenmedium",sans-serif;
+        font-size: 27px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    .size1024 .mobileSl .itemDocumentation{
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    .size1024 .mobileSl .itemDocumentation .img{
+        float: left;
+        margin-right: 20px;
+    }
+    .size1024 .mobileSl .elem_ground{
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .size1024 .mobileSl .elem_ground .number{
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    }
+    .size1024 .mobileSl .elem_ground .number .options{
+
+    }
+    .size1024 .mobileSl .elem_ground .options{
+        vertical-align: top;
+        display: inline-block;
+        width: 58%;
+    }
+    .size1024 .mobileSl .elem_ground .options .area{
+        color: #f3ca2b;
+        font-size: 12px;
+    }
+    .size1024 .mobileSl .elem_ground .options .price{
+        color: #f3ca2b;
+    }
+    .size1024 .mobileSl .elem_ground .options .marker{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .size1024 .mobileSl .elem_ground .options .marker a{
+        color: #fff;
+    }
+    .size1024 .mobileSl .itemDocumentation .img img{
+
+    }
+    .size1024 .mobileSl .itemDocumentation .link{
+
+    }
+    .size1024 .mobileSl .itemDocumentation .link a{
+        font-family: "rain_tungstenmedium",sans-serif;
+        font-size: 18px;
+    }
+    .size1024 .mobileSl .itemDocumentation .link a:hover{
+
+    }
+
+
+    .size1024 .mainSl {
+        background: transparent none repeat scroll 0 0;
+        display: block;
+
+    }
+    .size1024 .element .menu{
+        display: none;
+        margin-bottom: 12px;
+        margin-top: 6px;
+        text-align: center;
+    }
+    .size1024 .element .menu .itemMenu{
+        display: inline-block;
+    }
+
+    .size1024 .element {
+        position: relative;
+    }
+    .size1024 .element .blockMenu{
+        background: transparent url("../img/transp_bg.png") repeat scroll 0 0;
+        display: none;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        position: absolute;
+        text-align: center;
+        top: 132px;
+        width: 100%;
+        z-index: 1;
+    }
+    .size1024 .element .blockMenu.act{
+        display: block;
+    }
+    .size1024 .element .blockMenu ul{
+
+    }
+    .size1024 .element .blockMenu ul li{
+        list-style: none;
+    }
+    .size1024 .element .blockMenu ul li a{
+        color: #fff;
+        font-family: "rain_tungstenmedium",sans-serif;
+        font-size: 23px;
+        font-weight: normal;
+        line-height: 23px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .size1024 .element .blockMenu ul li a:hover{
+
+    }
+    .size1024 .element .blockMenu ul li.line{
+        background: transparent url("../img/sprite.png") no-repeat scroll 0 -233px;
+        display: inline-block;
+        height: 6px;
+        position: relative;
+        top: -0.1875rem;
+        width: 10px;
+    }
+
+
+    .size1024 .element .mainSl{
+
+    }
+    .size1024 .element  .bigTitle{
+        color: #fff;
+        font-family: "rain_tungstenmedium",sans-serif;
+        font-size: 40px;
+        padding-top: 14px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .size1024 .element .mainSl .phones{
+        text-align: center;
+    }
+    .size1024 .element .mainSl .phones .phone{
+        color: #f2dc9a;
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        font-family: "rain_tungstenmedium",sans-serif;
+    }
+    .size1024 .element .mainSl .phones .ico{
+        background: transparent url("../img/sprite.png") no-repeat scroll 0 -214px;
+        display: inline-block;
+        height: 21px;
+        margin-left: 2px;
+        margin-right: 2px;
+        position: relative;
+        top: 0;
+        width: 25px;
+    }
+    .size1024 .element .mainSl .menuEl{
+        font-family: "rain_tungstenmedium",sans-serif;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .size1024 .element .mainSl .menuEl ul{
+
+    }
+    .size1024 .element .mainSl .menuEl ul li{
+        list-style: none;
+    }
+
+    .size1024 .element .mainSl .menuEl ul li a{
+        color: #fff;
+        font-size: 23px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .size1024 .element .mainSl .menuEl ul li a:hover{
+        color: #fe9601;
+    }
+    .size1024 .element .mainSl .menuEl ul li.line{
+        background: transparent url("../img/sprite.png") no-repeat scroll 0 -233px;
+        display: inline-block;
+        height: 6px;
+        position: relative;
+        top: -0.1875rem;
+        width: 10px;
+     }
+
 
 
 }

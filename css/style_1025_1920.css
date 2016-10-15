@@ -269,6 +269,8 @@ input, textarea {
 
 .slidersBlock {
     width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 .slidersBlock .slider {
@@ -305,6 +307,7 @@ input, textarea {
     height: 692px;
     margin-left: 0.8rem;
     margin-right: 0.6rem;
+    overflow: auto;
 }
 
 .slidersBlock .slider .inSlide .title {
@@ -877,13 +880,23 @@ footer .copyrights {
 }
 
 .inSlide .plan .innerPlan {
-    margin: 0 auto;
+   /* margin: 0 auto;
     width: 920px;
+    position: relative;*/
+
+    height: 200px;
+    left: 4rem;
+    margin: 0 auto;
     position: relative;
+    width: 760px;
+}
+.inSlide .plan .innerPlan .innerPlanShift{
+    position: relative;
+    right: 9rem;
 }
 
-.inSlide .plan .innerPlan .house {
 
+.inSlide .plan .innerPlan .house {
     height: 34px;
     left: 0;
     position: absolute;
@@ -1974,7 +1987,9 @@ footer .copyrights {
 .whiteFone .inner .item img{
     width: auto;
 }
-
+.slidersBlock .size1024{
+    display: none;
+}
 
 
 

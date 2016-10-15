@@ -108,15 +108,107 @@ jQuery(document).ready(function () {
         }
     });
 
-
-    setTimeout(function() {
-
-      //  $("#vsRasp .whiteFone").append('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=AgTAIZzORXuq6g4zMNJTwikNqmSguaU7&amp;width=1075&amp;height=634&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>')
-
-    }, 2000);
-
-
     $('.fancybox').fancybox();
 
 
+    /* Меню на слайде */
+    $(".size1024 .element .mainSl .menuEl a").click(
+        function (e) {
+            e.preventDefault();
+            var thisEl = $(this);
+            var dataUrl = thisEl.data('menu');
+            if(dataUrl !='mainSl'){
+                thisEl.closest(".element").find(".mobileSl").hide();
+                thisEl.closest(".element").find('.'+dataUrl).fadeIn(300);
+                thisEl.closest(".element").find(".menu").fadeIn(300);
+            }
+        }
+    );
+
+    $(".itemMenu.backToMain a").click(
+        function (e) {
+            e.preventDefault();
+            $(this).closest(".menu").hide();
+            $(this).closest(".element").find(".blockMenu").removeClass('act');
+            $(".mainSl").fadeIn(300).siblings('.mobileSl').hide();
+
+        }
+    );
+
+    $(".itemMenu.showMenu a").click(
+        function (e) {
+            e.preventDefault();
+            var El = $(this).closest(".element").find(".blockMenu");
+            if(El.hasClass('act')){
+                El.removeClass('act');
+            }
+            else{
+                El.addClass("act");
+            }
+        }
+    );
+
+    $(".element .blockMenu a").click(
+        function (e) {
+            e.preventDefault();
+            var thisEl = $(this);
+            var dataUrl = thisEl.data('menu');
+
+            $(".size1024 .mobileSl").hide();
+                thisEl.closest(".element").find(".mobileSl").hide();
+                thisEl.closest(".element").find('.'+dataUrl).fadeIn(300);
+                thisEl.closest(".element").find(".menu").fadeIn(300);
+                thisEl.closest(".element").find(".blockMenu").removeClass('act');
+        }
+    );
+
+
+    /* Открытие мини карты */
+
+    $(".elem_ground .marker a").click(
+        function (e) {
+            e.preventDefault();
+            var thisEl = $(this);
+            var tabId = $(this).data('id');
+            console.log(tabId);
+            thisEl.closest('.genSl').find('.map_block').fadeIn(300);
+            thisEl.closest('.genSl').find('.baloon').hide();
+            thisEl.closest('.genSl').find('.house'+tabId).find('.baloon').fadeIn(300);
+
+        }
+    );
+
+    $(".map_block").click(
+        function (e) {
+            e.preventDefault();
+            $(this).fadeOut(300);
+        }
+
+    );
+
+
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
