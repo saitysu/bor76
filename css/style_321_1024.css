@@ -221,6 +221,9 @@
         height: 400px;
         overflow: auto;
     }
+    .size1024 .mobileSl.fotoSl .item{
+        display: inline-block;
+    }
     .size1024 .mobileSl .map_block{
         display: none;
         left: 0;
