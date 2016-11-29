@@ -1157,6 +1157,33 @@
         width: 10px;
      }
 
+    .inner_page .h1 {
+        text-align: center;
+    }
+
+
+    .servicesInner .item .left {
+        width: 38%;
+    }
+    .servicesInner .item .right {
+        margin-left: 1.1%;
+        width: 59%;
+    }
+    .servicesInner .item .right .name {
+        font-size: 2rem;
+    }
+    .servicesInner .item .right .desc {
+        line-height: 1.125rem;
+        margin-top: 0;
+    }
+    .servicesInner .item .right .more {
+        font-size: 0.875rem;
+    }
+    .servicesInner .item .right .link a {
+        border-width: 0.4vw;
+        font-size: 2.6vw;
+    }
+
 
 
 }
